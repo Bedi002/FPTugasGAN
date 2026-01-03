@@ -83,9 +83,14 @@ Kamu bisa menjalankan proyek ini menggunakan Google Colab atau Jupyter Notebook 
 ---
 
 ## 📚 Referensi
-1.  Zhu, J.-Y., Park, T., Isola, P., & Efros, A. A. (2017). *Unpaired image-to-image translation using cycle-consistent adversarial networks*. ICCV.
-2.  Goodfellow, I. J., et al. (2014). *Generative adversarial nets*. NeurIPS.
-3.  He, K., et al. (2016). *Deep residual learning for image recognition*. CVPR.
+Proyek ini dikembangkan berdasarkan studi literatur dari penelitian-penelitian berikut:
+
+1.  **[CartoonGAN]** Chen, Y., Lai, Y.-K., & Liu, Y.-J. (2018). *CartoonGAN: Generative adversarial networks for photo cartoonization*. CVPR.
+2.  **[GAN]** Goodfellow, I. J., et al. (2014). *Generative adversarial nets*. Advances in Neural Information Processing Systems.
+3.  **[ResNet]** He, K., et al. (2016). *Deep residual learning for image recognition*. CVPR.
+4.  **[Pix2Pix]** Isola, P., et al. (2017). *Image-to-image translation with conditional adversarial networks*. CVPR.
+5.  **[CelebA]** Liu, Z., et al. (2015). *Deep learning face attributes in the wild*. ICCV.
+6.  **[CycleGAN]** Zhu, J.-Y., et al. (2017). *Unpaired image-to-image translation using cycle-consistent adversarial networks*. ICCV.
 
 ---
 **Universitas Amikom Yogyakarta - 2025/2026**
