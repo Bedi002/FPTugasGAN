@@ -8,7 +8,7 @@
 
 ---
 
-## 👥 Anggota Kelompok 2
+##  Anggota Kelompok 2
 | NIM | Nama | Peran |
 | :--- | :--- | :--- |
 | **23.11.5617** | **Abdi Wicaksono B.S** | Lead Developer (Coding & Training) |
@@ -18,19 +18,19 @@
 
 ---
 
-## 📖 Deskripsi Proyek
+##  Deskripsi Proyek
 Proyek ini bertujuan untuk mengembangkan model AI yang mampu mengubah foto wajah manusia asli (*Real Face*) menjadi bergaya kartun (*Cartoon Style*) secara otomatis.
 
 Tantangan utama dalam *style transfer* adalah sulitnya mendapatkan dataset berpasangan (foto asli dan lukisan kartunnya dengan pose yang sama persis). Oleh karena itu, kami menggunakan metode **CycleGAN** yang memungkinkan pelatihan menggunakan dataset tidak berpasangan (*Unpaired Dataset*).
 
-### 🚀 Fitur & Tantangan Utama
+###  Fitur & Tantangan Utama
 * **Unpaired Training:** Melatih model tanpa data pasangan (hanya folder foto & folder kartun terpisah).
 * **Imbalanced Dataset Strategy:** Mengatasi ketimpangan data ekstrem antara **4.000 foto wajah** (CelebA) dan hanya **193 gambar kartun** dengan teknik *Random Oversampling* dan *Early Stopping*.
 * **Identity Preservation:** Menggunakan *Cycle Consistency Loss* untuk menjaga agar wajah tetap dikenali meskipun sudah menjadi kartun.
 
 ---
 
-## 📊 Hasil Visualisasi (Preview)
+##  Hasil Visualisasi (Preview)
 
 | Input (Original) | Output (Cartoon Style) |
 | :---: | :---: |
@@ -41,7 +41,7 @@ Tantangan utama dalam *style transfer* adalah sulitnya mendapatkan dataset berpa
 
 ---
 
-## 🛠️ Dataset & Arsitektur
+##  Dataset & Arsitektur
 **1. Dataset:**
 * **Domain A (Source):** [CelebA Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) (4.000 Citra).
 * **Domain B (Target):** Custom Cartoon Dataset (Kaggle) (193 Citra).
@@ -58,7 +58,7 @@ Tantangan utama dalam *style transfer* adalah sulitnya mendapatkan dataset berpa
 
 ---
 
-## 💻 Cara Menjalankan (How to Run)
+##  Cara Menjalankan (How to Run)
 
 Kamu bisa menjalankan proyek ini menggunakan Google Colab atau Jupyter Notebook lokal.
 
@@ -82,7 +82,7 @@ Kamu bisa menjalankan proyek ini menggunakan Google Colab atau Jupyter Notebook 
 
 ---
 
-## 📚 Referensi
+##  Referensi
 Proyek ini dikembangkan berdasarkan studi literatur dari penelitian-penelitian berikut:
 
 1.  **[CartoonGAN]** Chen, Y., Lai, Y.-K., & Liu, Y.-J. (2018). *CartoonGAN: Generative adversarial networks for photo cartoonization*. CVPR.
